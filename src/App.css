@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  padding: 10px 10px;
+  margin: 2em;
+}
+
+.App #log-btn {
+  background-color: #845ec2;
+  color: #fff;
+  height: 35px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.App #log-btn:hover {
+  cursor: pointer;
+}
