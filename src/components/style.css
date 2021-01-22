@@ -86,3 +86,28 @@ th {
   background: #ba68c8;
   color: #fafafa;
 }
+
+#btn-upd {
+  height: 25px;
+  background-color: green;
+  padding: 0 5px 0 5px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid green;
+}
+
+#btn-upd:hover {
+  cursor: pointer;
+}
+
+#btn-del {
+  height: 25px;
+  padding: 0 5px 0 5px;
+  background-color: #ff0000;
+  color: #fff;
+  border: 1px solid #ff0000;
+}
+
+#btn-del:hover {
+  cursor: pointer;
+}

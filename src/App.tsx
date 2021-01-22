@@ -9,7 +9,6 @@ import UsersList from "./components/UsersList";
 import ResourcesList from "./components/ResourcesList";
 import DelayedResponse from "./components/DelayedResponse";
 import CreateUser from "./components/CreateUser";
-import Modify from "./components/Modify";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
@@ -32,9 +31,6 @@ function App() {
           <Link to="/create">
             <button id="log-btn">Create User</button>
           </Link>
-          <Link to="/modify">
-            <button id="log-btn">Modify/Delete</button>
-          </Link>
           <Link to="/resource/id">
             <button id="log-btn">Rosource</button>
           </Link>
@@ -51,8 +47,6 @@ function App() {
           <Route exact path="/users" component={() => <UsersList />} />
 
           <Route exact path="/create" component={() => <CreateUser />} />
-
-          <Route exact path="/modify" component={() => <Modify />} />
 
           <Route
             exact
